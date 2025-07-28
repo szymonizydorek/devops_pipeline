@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Checking out repo:'
+               // yypecho 'Checking out repo:'
+               sh 'ls -al' 
             }
         }
 
