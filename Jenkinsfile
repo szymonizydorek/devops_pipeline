@@ -5,7 +5,6 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out repo:'
-                git 'https://github.com/szymonizydorek/devops_pipeline.git'
             }
         }
 
